@@ -25,7 +25,6 @@
  * 
  * @returns {Object} - объект, где ключи — это уникальные значения указанного ключа из объектов массива, а значения — массивы объектов, принадлежащих к каждой группе
  */
-
 function groupBy(array, key) {
   return array.reduce((result, currentValue) => {
     const groupKey = currentValue[key];
